@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+.custom-navbar {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    background: #ffffffa5;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.custom-navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.custom-navbar .form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.custom-navbar .logout-button {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.custom-navbar .logout-button:hover {
+    color: #0056b3;
+}
